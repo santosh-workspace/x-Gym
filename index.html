@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0f19">
+    <title>Vasu Sir's X Gym | Best Gym in Charholi Rd, Alandi, Pune</title>
+    <meta name="description" content="Join Vasu Sir's X Gym - Charholi Rd, Alandi, Pune. Premium Gents & Ladies fitness center with modern equipment, personal training, cardio, weight loss, and muscle building programs.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#e11d48',
+                            darkred: '#be123c',
+                            orange: '#f97316',
+                            sky: '#0284c7',
+                            dark: '#0f172a',
+                            card: '#1e293b'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Oswald', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0b0f19;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+        .font-display {
+            font-family: 'Oswald', sans-serif;
+        }
+        .bg-glass {
+            background: rgba(15, 23, 42, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .text-gradient-red {
+            background: linear-gradient(135deg, #ff4b4b 0%, #e11d48 50%, #f97316 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-gradient-gold {
+            background: linear-gradient(135deg, #fde047 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glow-red {
+            box-shadow: 0 0 25px rgba(225, 29, 72, 0.35);
+        }
+        .glow-green {
+            box-shadow: 0 0 25px rgba(34, 197, 94, 0.35);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #e11d48;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-rose-600 selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-rose-700 via-rose-600 to-orange-600 text-white text-xs sm:text-sm py-2 px-4 text-center font-medium sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center justify-center gap-2 w-full sm:w-auto">
+                <span class="bg-white/20 text-white text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full animate-pulse">Special Offer</span>
+                <span>🔥 Get Up to 40% OFF on Annual Memberships + Free Personal Consultation with Vasu Sir!</span>
+            </div>
+            <div class="hidden sm:flex items-center gap-4 text-xs">
+                <a href="tel:+919876543210" class="hover:underline flex items-center gap-1 font-semibold"><i class="fa-solid fa-phone"></i> +91 98765 43210</a>
+                <span>|</span>
+                <span class="flex items-center gap-1"><i class="fa-solid fa-clock"></i> 5:30 AM - 10:00 PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <nav class="sticky top-[32px] sm:top-[36px] z-40 bg-glass border-b border-gray-800 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Transparent Logo from Signboard -->
+                <a href="#" class="flex items-center gap-2 group py-2 my-auto">
+                    <div class="flex items-center gap-2 pt-2">
+                        <!-- Muscle Arm & Dumbbell Emblem with Red Arc -->
+                        <div class="relative w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center group-hover:scale-105 transition-transform shrink-0">
+                            <svg class="w-full h-full text-white drop-shadow-md" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Outer Emblem Shield Circle -->
+                                <circle cx="60" cy="70" r="48" stroke="white" stroke-width="5" fill="#141419" fill-opacity="0.8"/>
+                                <!-- Dumbbell + Bicep Flex Icon -->
+                                <g stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="32" y="55" width="10" height="30" rx="3" fill="white"/>
+                                    <rect x="78" y="55" width="10" height="30" rx="3" fill="white"/>
+                                    <line x1="42" y1="70" x2="78" y2="70" stroke-width="7"/>
+                                    <path d="M 42 80 C 40 102, 75 106, 78 82" fill="none" stroke-width="6"/>
+                                </g>
+                                <!-- Signature Red Arc Curve -->
+                                <path d="M 98 25 C 130 52, 130 88, 98 115" stroke="#e11d48" stroke-width="10" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+
+                        <!-- Brand Text Stack -->
+                        <div class="flex flex-col justify-center pt-1.5">
+                            <span class="text-[12px] sm:text-sm font-serif italic font-extrabold tracking-wide text-brand-orange leading-tight drop-shadow">Vasu Sir's</span>
+                            
+                            <div class="flex items-baseline gap-1 leading-none mt-0.5">
+                                <!-- Red X with Blue Chevron Crown -->
+                                <div class="relative inline-flex flex-col items-center">
+                                    <svg class="w-3 h-1.5 -mb-0.5 text-sky-400" viewBox="0 0 20 12" fill="currentColor">
+                                        <polygon points="0,0 10,12 20,0 14,0 10,5 6,0"/>
+                                    </svg>
+                                    <span class="text-2xl sm:text-3xl font-black text-rose-600 tracking-tight leading-none drop-shadow">X</span>
+                                </div>
+                                <span class="text-2xl sm:text-3xl font-black tracking-wider text-white font-display leading-none">GYM</span>
+                            </div>
+                            
+                            <span class="text-[9px] font-bold tracking-widest text-gray-300 uppercase leading-none mt-1 bg-gray-800/90 px-1.5 py-0.5 rounded border border-gray-700/60 w-fit">Gents & Ladies</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                    <a href="#home" class="hover:text-rose-500 transition-colors py-1 border-b-2 border-rose-600 font-semibold">Home</a>
+                    <a href="#about" class="text-gray-300 hover:text-rose-500 transition-colors">About Vasu Sir</a>
+                    <a href="#services" class="text-gray-300 hover:text-rose-500 transition-colors">Programs</a>
+                    <a href="#plans" class="text-gray-300 hover:text-rose-500 transition-colors">Membership</a>
+                    <a href="#bmi" class="text-gray-300 hover:text-rose-500 transition-colors">BMI Calculator</a>
+                    <a href="#location" class="text-gray-300 hover:text-rose-500 transition-colors">Location</a>
+                </div>
+
+                <!-- Desktop CTA Buttons -->
+                <div class="hidden lg:flex items-center gap-3">
+                    <a href="tel:+919876543210" class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-xl border border-gray-700 text-xs font-semibold transition-all">
+                        <i class="fa-solid fa-phone text-rose-500"></i> Call Us
+                    </a>
+                    <button onclick="openModal()" class="bg-gradient-to-r from-rose-600 to-orange-600 hover:from-rose-500 hover:to-orange-500 text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-lg hover:shadow-rose-600/30 transition-all transform hover:-translate-y-0.5">
+                        Free Trial Pass
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="flex items-center gap-2 md:hidden">
+                    <a href="tel:+919876543210" class="p-2 bg-rose-600 text-white rounded-lg text-sm">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="p-2 rounded-lg bg-gray-800 text-gray-300 hover:text-white">
+                        <i class="fa-solid fa-bars text-xl" id="menuIcon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-gray-900 border-b border-gray-800 px-4 pt-3 pb-6 space-y-3">
+            <a href="#home" onclick="toggleMobileMenu()" class="block py-2 text-rose-500 font-semibold border-b border-gray-800">Home</a>
+            <a href="#about" onclick="toggleMobileMenu()" class="block py-2 text-gray-300 hover:text-rose-500 border-b border-gray-800">About Vasu Sir</a>
+            <a href="#services" onclick="toggleMobileMenu()" class="block py-2 text-gray-300 hover:text-rose-500 border-b border-gray-800">Programs</a>
+            <a href="#plans" onclick="toggleMobileMenu()" class="block py-2 text-gray-300 hover:text-rose-500 border-b border-gray-800">Membership Plans</a>
+            <a href="#bmi" onclick="toggleMobileMenu()" class="block py-2 text-gray-300 hover:text-rose-500 border-b border-gray-800">BMI Calculator</a>
+            <a href="#location" onclick="toggleMobileMenu()" class="block py-2 text-gray-300 hover:text-rose-500">Location & Map</a>
+            
+            <div class="pt-2 flex flex-col gap-2">
+                <button onclick="toggleMobileMenu(); openModal();" class="w-full bg-gradient-to-r from-rose-600 to-orange-600 text-white py-3 rounded-xl font-bold text-center">
+                    Get Free 1-Day Trial Pass
+                </button>
+                <a href="https://wa.me/919876543210?text=Hi%20Vasu%20Sir,%20I%20want%20to%20know%20more%20about%20X%20Gym%20Charholi%20Rd%20Alandi" target="_blank" class="w-full bg-emerald-600 text-white py-3 rounded-xl font-bold text-center flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Vasu Sir
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-[90vh] flex items-center justify-center overflow-hidden py-16 lg:py-24">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80" 
+                 alt="Indian Fitness Gym Background" 
+                 class="w-full h-full object-cover object-center filter brightness-[0.3]"
+                 onerror="this.src='https://placehold.co/1920x1080/0f172a/ffffff?text=X+Gym+Alandi'">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0b0f19] via-[#0b0f19]/70 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-[#0b0f19] via-[#0b0f19]/80 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-rose-500/10 border border-rose-500/30 text-rose-400 text-xs sm:text-sm font-semibold">
+                        <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+                        Top Rated Fitness Club in Charholi Rd, Alandi
+                    </div>
+
+                    <h1 class="text-4xl sm:text-6xl xl:text-7xl font-black font-display tracking-tight text-white uppercase leading-none">
+                        TRANSFORM YOUR <span class="text-gradient-red">BODY & LIFE</span> WITH VASU SIR
+                    </h1>
+
+                    <p class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Welcome to <strong class="text-white">X Gym Charholi Rd, Alandi, Pune</strong>. Premier fitness destination for <span class="text-rose-400 font-semibold">Gents & Ladies</span>. Equipped with heavy-duty weight training, high-octane cardio, dedicated personal trainers, and customised diet plans.
+                    </p>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <button onclick="openModal()" class="w-full sm:w-auto bg-gradient-to-r from-rose-600 via-rose-500 to-orange-500 hover:from-rose-500 hover:to-orange-400 text-white px-8 py-4 rounded-xl font-extrabold text-base shadow-xl glow-red transition-all transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                            <span>CLAIM FREE PASS</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        
+                        <a href="https://wa.me/919876543210?text=Hi%20Vasu%20Sir,%20I%20am%20interested%20in%20joining%20X%20Gym%20Charholi%20Rd%20Alandi" target="_blank" class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-4 rounded-xl font-extrabold text-base shadow-lg glow-green transition-all transform hover:-translate-y-1 flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <span>CHAT WITH VASU SIR</span>
+                        </a>
+                    </div>
+
+                    <!-- Highlight Badges -->
+                    <div class="pt-8 border-t border-gray-800/80 grid grid-cols-3 gap-4 max-w-lg mx-auto lg:mx-0 text-center">
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-black font-display text-white">1000+</p>
+                            <p class="text-xs text-gray-400 mt-1">Local Members</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-black font-display text-rose-500">100%</p>
+                            <p class="text-xs text-gray-400 mt-1">Result Oriented</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl sm:text-3xl font-black font-display text-amber-400">4.9 ★</p>
+                            <p class="text-xs text-gray-400 mt-1">Google Reviews</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Card / Quick Inquiry Box -->
+                <div class="lg:col-span-5">
+                    <div class="bg-gray-900/90 border border-gray-800 p-6 sm:p-8 rounded-3xl shadow-2xl backdrop-blur-md relative overflow-hidden">
+                        <div class="absolute top-0 right-0 bg-rose-600 text-white text-[10px] uppercase tracking-widest font-bold px-4 py-1 rounded-bl-xl">
+                            Instant Access
+                        </div>
+                        
+                        <h3 class="text-2xl font-bold font-display text-white mb-2">JOIN VASU SIR'S X GYM TODAY</h3>
+                        <p class="text-xs text-gray-400 mb-6">Fill in your details below & get a free fitness trial pass delivered to WhatsApp.</p>
+
+                        <form id="heroForm" onsubmit="handleFormSubmit(event, 'Hero Inquiry')" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-300 mb-1">Full Name *</label>
+                                <input type="text" required placeholder="e.g. Rahul Sharma" class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rose-500 transition-colors">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-300 mb-1">WhatsApp Number *</label>
+                                <input type="tel" required pattern="[0-9]{10}" placeholder="10 Digit Mobile Number" class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rose-500 transition-colors">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-300 mb-1">Fitness Goal</label>
+                                <select class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rose-500 transition-colors">
+                                    <option>Weight Loss / Fat Burn</option>
+                                    <option>Muscle Building & Bulking</option>
+                                    <option>General Fitness & Stamina</option>
+                                    <option>Personal Coaching with Vasu Sir</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full bg-gradient-to-r from-rose-600 to-orange-600 hover:from-rose-500 hover:to-orange-500 text-white py-3.5 rounded-xl font-bold text-sm shadow-lg transition-all">
+                                GET FREE TRIAL NOW
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-900/60 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Image Side -->
+                <div class="relative">
+                    <div class="relative z-10 rounded-3xl overflow-hidden border-2 border-gray-800 shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1000&q=80" 
+                             alt="Indian Gym Trainer Vasu Sir" 
+                             class="w-full h-[450px] object-cover object-top"
+                             onerror="this.src='https://placehold.co/800x1000/1e293b/ffffff?text=Vasu+Sir+Trainer'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 right-6 text-white">
+                            <p class="text-2xl font-black font-display">VASU SIR</p>
+                            <p class="text-xs text-rose-400 font-semibold uppercase tracking-wider">Founder & Head Coach, X Gym Alandi</p>
+                        </div>
+                    </div>
+                    <!-- Decorative element -->
+                    <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-rose-600/20 rounded-full blur-3xl -z-0"></div>
+                </div>
+
+                <!-- Text Side -->
+                <div class="space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-rose-500/10 text-rose-400 text-xs font-bold uppercase tracking-wider">
+                        About Vasu Sir's X Gym
+                    </div>
+
+                    <h2 class="text-3xl sm:text-5xl font-extrabold font-display uppercase tracking-tight leading-tight">
+                        CHARHOLI ROAD'S MOST TRUSTED <span class="text-gradient-red">FITNESS SANCTUARY</span>
+                    </h2>
+
+                    <p class="text-gray-300 leading-relaxed">
+                        At <strong class="text-white">X Gym (Charholi Rd, Alandi)</strong>, under the expert leadership of <strong class="text-rose-400">Vasu Sir</strong>, we believe fitness is not just about lifting weights—it’s about changing your lifestyle. Whether you are a college student, working professional, or homemaker, our friendly community and personalized training regimes will ensure you reach your goals.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-4 pt-2">
+                        <div class="bg-gray-800/60 p-4 rounded-2xl border border-gray-700/50">
+                            <div class="w-10 h-10 rounded-xl bg-rose-600/20 text-rose-500 flex items-center justify-center mb-2 text-xl">
+                                <i class="fa-solid fa-venus-mars"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-base">Gents & Ladies Sections</h4>
+                            <p class="text-xs text-gray-400 mt-1">Safe, hygienic, and comfortable environment designed for everyone.</p>
+                        </div>
+
+                        <div class="bg-gray-800/60 p-4 rounded-2xl border border-gray-700/50">
+                            <div class="w-10 h-10 rounded-xl bg-amber-600/20 text-amber-500 flex items-center justify-center mb-2 text-xl">
+                                <i class="fa-solid fa-dumbbell"></i>
+                            </div>
+                            <h4 class="font-bold text-white text-base">Modern Equipment</h4>
+                            <p class="text-xs text-gray-400 mt-1">Heavy strength machines, free weights, treadmills, and spin bikes.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-4 pt-4">
+                        <a href="tel:+919876543210" class="inline-flex items-center gap-2 bg-rose-600 hover:bg-rose-700 text-white font-bold px-6 py-3 rounded-xl transition-all">
+                            <i class="fa-solid fa-phone"></i> Direct Call Vasu Sir
+                        </a>
+                        <a href="https://wa.me/919876543210" target="_blank" class="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-emerald-400 font-bold px-6 py-3 rounded-xl border border-gray-700 transition-all">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Send WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="services" class="py-20 bg-gray-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <span class="text-rose-500 font-bold text-xs uppercase tracking-widest bg-rose-500/10 px-3 py-1 rounded-full">Our Fitness Programs</span>
+                <h2 class="text-3xl sm:text-5xl font-black font-display uppercase tracking-tight">DESIGNED FOR <span class="text-gradient-red">MAXIMUM RESULTS</span></h2>
+                <p class="text-gray-400 text-sm sm:text-base">Customized workout structures according to your body type, fitness level, and dietary needs.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden hover:border-rose-600/50 transition-all group">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=80" 
+                             alt="Weight Training Indian Gym" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                             onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Weight+Training'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold font-display text-white">Heavy Weight Training</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">Build muscular strength, hypertrophy, and posture with high-end plates, barbells, and machines under expert guidance.</p>
+                        <button onclick="openModal()" class="text-rose-500 text-xs font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
+                            INQUIRE FOR WEIGHT TRAINING <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden hover:border-rose-600/50 transition-all group">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80" 
+                             alt="Cardio Burn Gym" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                             onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Cardio+Zone'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold font-display text-white">Cardio & Fat Loss Zone</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">Burn maximum calories with commercial treadmills, cross trainers, spin bikes, and fat-shredding HIIT workouts.</p>
+                        <button onclick="openModal()" class="text-rose-500 text-xs font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
+                            INQUIRE FOR FAT LOSS <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden hover:border-rose-600/50 transition-all group">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" 
+                             alt="Personal Coaching Vasu Sir" 
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                             onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Personal+Coaching'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-6 space-y-3">
+                        <h3 class="text-xl font-bold font-display text-white">1-on-1 Personal Coaching</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">Get dedicated 1-on-1 fitness supervision with Vasu Sir including customized Indian diet plans and transformation tracking.</p>
+                        <button onclick="openModal()" class="text-rose-500 text-xs font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
+                            BOOK PERSONAL TRAINER <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="py-20 bg-gray-900/40 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <span class="text-rose-500 font-bold text-xs uppercase tracking-widest bg-rose-500/10 px-3 py-1 rounded-full">Affordable Pricing</span>
+                <h2 class="text-3xl sm:text-5xl font-black font-display uppercase tracking-tight">MEMBERSHIP <span class="text-gradient-gold">PACKAGES</span></h2>
+                <p class="text-gray-400 text-sm">Flexible plans crafted for students and locals in Charholi Rd, Alandi.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- 3 Month Plan -->
+                <div class="bg-gray-900 border border-gray-800 rounded-3xl p-8 relative hover:border-gray-700 transition-all flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold font-display text-gray-200">QUARTERLY PLAN</h3>
+                        <p class="text-xs text-gray-400 mt-1">3 Months Unlimited Access</p>
+                        <div class="my-6">
+                            <span class="text-4xl font-black text-white font-display">₹3,500</span>
+                            <span class="text-xs text-gray-400">/ 3 months</span>
+                        </div>
+                        <ul class="space-y-3 text-xs text-gray-300 border-t border-gray-800 pt-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Full Access to Gym Equipment</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Cardio & Weight Section</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> General Guidance by Trainers</li>
+                            <li class="flex items-center gap-2 text-gray-500"><i class="fa-solid fa-xmark"></i> Personal Diet Plan</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal()" class="w-full mt-8 bg-gray-800 hover:bg-gray-700 text-white py-3 rounded-xl font-bold text-sm transition-all">
+                        SELECT PLAN
+                    </button>
+                </div>
+
+                <!-- Annual Plan (Featured) -->
+                <div class="bg-gradient-to-b from-gray-900 via-rose-950/30 to-gray-900 border-2 border-rose-600 rounded-3xl p-8 relative shadow-2xl transform lg:-translate-y-4 flex flex-col justify-between">
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-rose-600 text-white text-xs font-black uppercase tracking-wider px-4 py-1 rounded-full shadow-lg">
+                        MOST POPULAR
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold font-display text-rose-400">ANNUAL TRANSFORMATION</h3>
+                        <p class="text-xs text-gray-400 mt-1">12 Months Full Membership</p>
+                        <div class="my-6">
+                            <span class="text-5xl font-black text-white font-display">₹8,999</span>
+                            <span class="text-xs text-gray-400">/ year</span>
+                            <p class="text-[10px] text-emerald-400 font-bold mt-1">SAVE UP TO 40% OFF</p>
+                        </div>
+                        <ul class="space-y-3 text-xs text-gray-200 border-t border-gray-800 pt-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Full Gym & Cardio Access</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Specialized Custom Diet Chart</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> 1-on-1 Consultation with Vasu Sir</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Steam / Locker Facilities Access</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal()" class="w-full mt-8 bg-gradient-to-r from-rose-600 to-orange-600 hover:from-rose-500 hover:to-orange-500 text-white py-3.5 rounded-xl font-extrabold text-sm shadow-xl transition-all">
+                        JOIN ANNUAL NOW
+                    </button>
+                </div>
+
+                <!-- 6 Month Plan -->
+                <div class="bg-gray-900 border border-gray-800 rounded-3xl p-8 relative hover:border-gray-700 transition-all flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold font-display text-gray-200">HALF YEARLY PLAN</h3>
+                        <p class="text-xs text-gray-400 mt-1">6 Months Full Access</p>
+                        <div class="my-6">
+                            <span class="text-4xl font-black text-white font-display">₹5,500</span>
+                            <span class="text-xs text-gray-400">/ 6 months</span>
+                        </div>
+                        <ul class="space-y-3 text-xs text-gray-300 border-t border-gray-800 pt-6">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Full Access to Gym & Equipment</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Cardio & Free Weights</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Basic Diet Guidance</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-rose-500"></i> Progress Tracking</li>
+                        </ul>
+                    </div>
+                    <button onclick="openModal()" class="w-full mt-8 bg-gray-800 hover:bg-gray-700 text-white py-3 rounded-xl font-bold text-sm transition-all">
+                        SELECT PLAN
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BMI Calculator Section -->
+    <section id="bmi" class="py-20 bg-gray-950">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-gray-900 via-gray-900 to-gray-950 border border-gray-800 p-8 sm:p-12 rounded-3xl shadow-2xl">
+                <div class="grid md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-5 space-y-4">
+                        <span class="text-rose-500 text-xs font-bold uppercase tracking-widest">Free Tool</span>
+                        <h3 class="text-3xl font-black font-display text-white uppercase">CHECK YOUR <span class="text-gradient-red">BMI SCORE</span></h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">Calculate your Body Mass Index (BMI) instantly to understand your ideal weight target before starting your workout with Vasu Sir.</p>
+                    </div>
+
+                    <div class="md:col-span-7 space-y-4">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-300 mb-1">Height (cm)</label>
+                                <input type="number" id="bmiHeight" placeholder="e.g. 175" class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rose-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-300 mb-1">Weight (kg)</label>
+                                <input type="number" id="bmiWeight" placeholder="e.g. 70" class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rose-500">
+                            </div>
+                        </div>
+
+                        <button onclick="calculateBMI()" class="w-full bg-rose-600 hover:bg-rose-500 text-white font-bold py-3.5 rounded-xl text-sm transition-all">
+                            CALCULATE BMI NOW
+                        </button>
+
+                        <div id="bmiResult" class="hidden p-4 rounded-xl bg-gray-800/80 border border-gray-700 text-center space-y-1">
+                            <p class="text-xs text-gray-400">Your Calculated BMI Score:</p>
+                            <p class="text-3xl font-black text-rose-500 font-display" id="bmiValue">0.0</p>
+                            <p class="text-xs font-bold text-white" id="bmiCategory">Normal Weight</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section id="location" class="py-20 bg-gray-900/80 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+                <span class="text-rose-500 font-bold text-xs uppercase tracking-widest bg-rose-500/10 px-3 py-1 rounded-full">Visit Us Today</span>
+                <h2 class="text-3xl sm:text-5xl font-black font-display uppercase tracking-tight">X GYM <span class="text-gradient-red">LOCATION & MAP</span></h2>
+                <p class="text-gray-400 text-sm">Easily accessible for members in Alandi and surrounding Charholi area.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8 items-stretch">
+                <!-- Address & Info Box -->
+                <div class="lg:col-span-5 bg-gray-900 border border-gray-800 p-8 rounded-3xl flex flex-col justify-between space-y-6">
+                    <div>
+                        <h3 class="text-2xl font-bold font-display text-white mb-6">GYM INFORMATION</h3>
+                        
+                        <div class="space-y-5">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-rose-600/20 text-rose-500 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xs font-bold text-gray-400 uppercase">Exact Address</h4>
+                                    <p class="text-sm font-semibold text-white mt-0.5">Charholi Rd, Alandi, Pune, Alandi, Maharashtra 412105</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-emerald-600/20 text-emerald-500 flex items-center justify-center shrink-0">
+                                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xs font-bold text-gray-400 uppercase">WhatsApp & Phone</h4>
+                                    <p class="text-sm font-semibold text-white mt-0.5">+91 98765 43210 / +91 91234 56789</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-amber-600/20 text-amber-500 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4 class="text-xs font-bold text-gray-400 uppercase">Gym Timing</h4>
+                                    <p class="text-sm font-semibold text-white mt-0.5">Morning: 5:30 AM – 10:30 AM</p>
+                                    <p class="text-sm font-semibold text-white">Evening: 5:00 PM – 10:00 PM</p>
+                                    <p class="text-xs text-rose-400 mt-1 font-medium">(Open Monday to Saturday. Sunday Evening Off)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-6 border-t border-gray-800 flex flex-col gap-3">
+                        <a href="https://maps.app.goo.gl/BnUVCEdJrbrjTYqo7" target="_blank" class="w-full bg-gradient-to-r from-rose-600 to-orange-600 hover:from-rose-500 hover:to-orange-500 text-white font-extrabold py-3.5 rounded-xl text-center text-sm shadow-lg flex items-center justify-center gap-2 transition-all">
+                            <i class="fa-solid fa-diamond-turn-right"></i> GET DIRECTIONS ON GOOGLE MAPS
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Google Maps Embed -->
+                <div class="lg:col-span-7 bg-gray-900 border border-gray-800 rounded-3xl overflow-hidden min-h-[350px] relative">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.082728481358!2d73.8966!3d18.6652!2m3!1000!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c80333333333%3A0x1234567890abcdef!2sAlandi%2C%20Pune!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                        class="w-full h-full min-h-[400px] border-0 filter grayscale invert contrast-125 opacity-90" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    
+                    <div class="absolute bottom-4 right-4 bg-gray-900/90 border border-gray-700 px-4 py-2 rounded-xl text-xs text-white font-bold backdrop-blur-md">
+                        📍 X Gym Charholi Rd, Alandi
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-gray-900 pt-16 pb-24 lg:pb-12 text-gray-400 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-gray-900">
+                <div class="space-y-4 md:col-span-1">
+                    <div class="flex items-center gap-2">
+                        <span class="text-rose-600 font-extrabold text-2xl font-display">VASU SIR'S X GYM</span>
+                    </div>
+                    <p class="text-gray-400 text-xs leading-relaxed">
+                        Charholi Rd's top personal training & strength gym in Alandi, Pune. Empowering fitness for Gents & Ladies.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-rose-500">Home</a></li>
+                        <li><a href="#about" class="hover:text-rose-500">About Vasu Sir</a></li>
+                        <li><a href="#services" class="hover:text-rose-500">Programs</a></li>
+                        <li><a href="#plans" class="hover:text-rose-500">Membership Plans</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase mb-4">Fitness Services</h4>
+                    <ul class="space-y-2">
+                        <li>Weight Training & Bulking</li>
+                        <li>Fat Loss & High Cardio</li>
+                        <li>Personalized Diet Coaching</li>
+                        <li>Student Fitness Packages</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase mb-4">Contact Info</h4>
+                    <p class="mb-2">Charholi Rd, Alandi, Pune, Alandi, Maharashtra 412105</p>
+                    <p class="mb-2">Phone: +91 98765 43210</p>
+                    <p class="text-emerald-400 font-bold">WhatsApp: +91 98765 43210</p>
+                </div>
+            </div>
+
+            <div class="pt-8 text-center text-gray-500 text-xs flex flex-col sm:flex-row items-center justify-between gap-4">
+                <p>© 2026 Vasu Sir's X Gym Alandi. All Rights Reserved.</p>
+                <p>Location: Charholi Rd, Alandi, Pune, Maharashtra 412105</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky Floating Action Bar (WhatsApp & Call) -->
+    <div class="fixed bottom-4 right-4 z-50 flex flex-col gap-3">
+        <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/919876543210?text=Hi%20Vasu%20Sir,%20I%20am%20interested%20in%20joining%20X%20Gym%20Charholi%20Rd%20Alandi" 
+           target="_blank" 
+           class="bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl glow-green transition-transform hover:scale-110">
+            <i class="fa-brands fa-whatsapp text-3xl"></i>
+        </a>
+
+        <!-- Floating Call Button -->
+        <a href="tel:+919876543210" 
+           class="bg-rose-600 hover:bg-rose-700 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl glow-red transition-transform hover:scale-110 md:hidden">
+            <i class="fa-solid fa-phone text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- Modal Dialog for Free Trial -->
+    <div id="trialModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-gray-900 border border-gray-800 rounded-3xl max-w-md w-full p-6 sm:p-8 relative shadow-2xl">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h3 class="text-2xl font-bold font-display text-white mb-1">CLAIM 1-DAY FREE PASS</h3>
+            <p class="text-xs text-gray-400 mb-6">Experience Vasu Sir's X Gym Charholi Rd Alandi with zero cost.</p>
+
+            <form onsubmit="handleFormSubmit(event, 'Modal Trial Pass')" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-gray-300 mb-1">Full Name</label>
+                    <input type="text" required placeholder="Enter your name" class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rose-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-gray-300 mb-1">WhatsApp Mobile Number</label>
+                    <input type="tel" required pattern="[0-9]{10}" placeholder="10 Digit Number" class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rose-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-gray-300 mb-1">Preferred Time Slot</label>
+                    <select class="w-full bg-gray-800 border border-gray-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rose-500">
+                        <option>Morning (6:00 AM - 9:00 AM)</option>
+                        <option>Evening (5:30 PM - 9:00 PM)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="w-full bg-gradient-to-r from-rose-600 to-orange-600 text-white font-bold py-3.5 rounded-xl text-sm shadow-lg">
+                    CONFIRM & SEND PASS TO WHATSAPP
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Toggle mobile menu visibility
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Modal triggers
+        function openModal() {
+            document.getElementById('trialModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('trialModal').classList.add('hidden');
+        }
+
+        // Form submission redirect to WhatsApp for real response
+        function handleFormSubmit(event, source) {
+            event.preventDefault();
+            const inputs = event.target.querySelectorAll('input');
+            const name = inputs[0]?.value || 'Member';
+            const phone = inputs[1]?.value || '';
+
+            const message = `Hi Vasu Sir! I submitted a request on the website (${source}).%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}`;
+            
+            // Redirect directly to WhatsApp
+            window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+            closeModal();
+        }
+
+        // BMI Calculation logic
+        function calculateBMI() {
+            const height = parseFloat(document.getElementById('bmiHeight').value);
+            const weight = parseFloat(document.getElementById('bmiWeight').value);
+            const resultDiv = document.getElementById('bmiResult');
+            const bmiValue = document.getElementById('bmiValue');
+            const bmiCategory = document.getElementById('bmiCategory');
+
+            if (height > 0 && weight > 0) {
+                const heightMeters = height / 100;
+                const bmi = (weight / (heightMeters * heightMeters)).toFixed(1);
+
+                bmiValue.innerText = bmi;
+                resultDiv.classList.remove('hidden');
+
+                if (bmi < 18.5) {
+                    bmiCategory.innerText = "Underweight - Recommended: Weight Gain Program";
+                    bmiCategory.className = "text-xs font-bold text-amber-400";
+                } else if (bmi >= 18.5 && bmi < 24.9) {
+                    bmiCategory.innerText = "Normal Weight - Ideal Fitness Level";
+                    bmiCategory.className = "text-xs font-bold text-emerald-400";
+                } else if (bmi >= 25 && bmi < 29.9) {
+                    bmiCategory.innerText = "Overweight - Recommended: Fat Burn & Cardio";
+                    bmiCategory.className = "text-xs font-bold text-orange-400";
+                } else {
+                    bmiCategory.innerText = "Obese Target - Recommended: Vasu Sir Personal Coaching";
+                    bmiCategory.className = "text-xs font-bold text-rose-500";
+                }
+            } else {
+                alert('Please enter valid Height and Weight values.');
+            }
+        }
+    </script>
+</body>
+</html>
